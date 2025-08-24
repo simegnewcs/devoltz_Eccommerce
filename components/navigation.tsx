@@ -26,7 +26,7 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">D</span>
+           <img src="../logow.jpg"  alt="" style={{borderRadius:"50%"}} className="w-40 h-8 border-rounded" />
             </div>
             <span className="font-bold text-xl">DevVoltz</span>
           </Link>
@@ -45,7 +45,7 @@ export function Navigation() {
           </nav>
 
           {/* Search Bar */}
-          <div className="hidden lg:flex items-center space-x-2 flex-1 max-w-md mx-8">
+          <div className="hidden lg:flex items-center space-x-2 flex-1 max-w-md mx-6">
             <div className="relative flex-1">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
               <Input

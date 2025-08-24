@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge"
 export function HeroSection() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-background via-background to-muted/20">
-      <div className="container mx-auto px-4 py-20 lg:py-32">
+      <div className="container mx-auto px-4  ">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-8">
@@ -15,7 +15,7 @@ export function HeroSection() {
                 <TrendingUp className="w-3 h-3 mr-1" />
                 New Collection 2024
               </Badge>
-              <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl lg:text-4xl font-bold leading-tight">
                 Discover Premium
                 <span className="text-primary block">Products</span>
                 with DevVoltz
@@ -64,7 +64,7 @@ export function HeroSection() {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="/placeholder.svg?height=600&width=500&text=DevVoltz+Premium+Products"
+                src="/banner for dev store.png?height=600&width=500&text=DevVoltz+Premium+Products"
                 alt="DevVoltz Premium Products"
                 className="w-full h-auto rounded-2xl shadow-2xl"
               />
